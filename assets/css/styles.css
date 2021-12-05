@@ -1,0 +1,27 @@
+/*universal selectors*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #360055;
+}
+/*header*/
+header {
+    padding: 20px 30px;
+    background-color: #C8BFCC;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+}
+header h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    color: #594068;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
