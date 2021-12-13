@@ -29,7 +29,6 @@ body {
 /*header and navigation*/
 header {
     padding: 20px 30px;
-    background-color: #46A5FF;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -156,7 +155,7 @@ main {
 .content a {
     text-decoration: none;
     font-weight: bold;
-    color: #FF46A5;
+    color: #FF56A5;
 }
 .content ul {
     display: flex;
@@ -209,13 +208,10 @@ main {
     background-position: 80%;
     overflow: hidden;
 }
-.card-image img:hover {
-    transition: opacity .5s linear .400s; 
-}
 .details {
     position: relative;
     top: 100px;
-    opacity: .80;
+    opacity: .90;
     padding: 10px 15px;
     display: flex;
     flex-direction: column;
@@ -226,7 +222,7 @@ main {
 }
 .large-card .details {
     position: relative;
-    top: 180px;
+    top: 200px;
 }
 .details p {
     font-size: 12px;
