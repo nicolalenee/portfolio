@@ -4,33 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./assets/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <title>Cola Folio</title>
 </head>
-
 <body>
-    <!--header-->
     <header>
-        <h1>Cola.</h1>
+        <h1>cola.</h1>
         <nav>
             <ul>
                 <li>
-                    <a href="#">About Me</a>
+                    <a href="#about-me">About Me</a>
                 </li>
                 <li>
-                    <a href="#">Work</a>
+                    <a href="#work">Work</a>
                 </li>
                 <li>
-                    <a href="#">Contact Me</a>
+                    <a href="#contact-me">Contact Me</a>
                 </li>
                 <li>
-                    <a href="#">Resumé</a>
+                    <a href="https://www.linkedin.com/in/nicolamarble/">Resumé</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <!--END OF HEADER-->
 
     <!--hero-->
     <section class="hero">
@@ -39,87 +36,127 @@
         </div>
     </section>
     <!--END OF HERO SECTION-->
-
-    <!--about Me section-->
     <main>
+        <!--about me section-->
         <section id="about-me" class="box">
-            <div class="title">
-                <h3>About me</h3>
+            <!--about me section-->
+            <div class="title about">
+                <h3 class="section-title">About Me</h3>
             </div>
+
             <div class="content">
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit dignissimos similique vel at cumque quisquam modi nam, non dicta obcaecati quasi voluptatibus debitis, minus mollitia sunt corrupti aperiam culpa error!
+                    My name's Nicola and I'm a full stack developer from the midwest! I began my journey into technology in January of 2021. So far, I've acquired certificates for HTML, CSS, JavaScript, and jQuery. 
                 </p>
-
+                <br>
+                <br>
                 <p>
-                    My name's Nicola Marble and I am budding new Full Stack Engineer. In my spare time I play video games, read, and build mechanical keyboards for myself and friends.
+                    Some of current hobbies include playing video games, reading, writing, and playing with my dog Simba.
                 </p>
             </div>
-
         </section>
-        <!--END OF ABOUT ME SECTION-->
+        <!--END ABOUT SECTION-->
 
-        <!--my works section-->
+            <!--works section-->
         <section id="work" class="box">
-            <div class="title">
-                <h3>Works</h3>
-            </div>
-            <div class="content works">
-                <!--work cards-->
-                <div class="large-card">
-                    <div class="large-img">
-                        <h3><a href="#">Run Buddy</a></h3>
-                        <p>HTML/CSS</p>
-                    </div>
-                </div>
-
-                <div class="small-card card-one">
-                    <div class="small-img">
-                        <h3><a href="#">Piano Player</a></h3>
-                        <p>HTML/CSS/JavaScript</p>
-                    </div>
-                </div>
-
-                <div class="small-card card-two">
-                    <div class="small-img">
-                        <h3>Wanderlust</h3>
-                        <p>HTML/CSS/JavaScript</p>
-                    </div>
-                </div>
-
-                <div class="small-card card-three">
-                    <div class="small-img">
-                        <h3>Calculator</h3>
-                        <p>React/JavaScript/CSS</p>
-                    </div>
-                </div>
+            <div class="title works">
+                <h3 class="section-title">Works</h3>
             </div>
 
+            <div class="content">
+                <div class="cards">
+                    <!--large card content-->
+                    <div class="large-card first-image">
+                        <div class="card-image">
+                        </div>
+                        <div class="details">
+                            <a href="https://nicolalenee.github.io/run--buddy/">
+                                <h4>Run Buddy</h4>
+                            </a>
+                            <p>CSS/HTML</p>
+                        </div>
+                    </div>
+
+                    <!-- smaller cards section-->
+                    
+                    <div class= "small-card second-image">
+                        <div class="card-image">
+                        </div>
+                        <div class="details">
+                            <a href="#">
+                                <h4>Calculator</h4>
+                            </a>
+                            <p>React/JavaScript/CSS</p>
+                        </div>
+                    </div>
+
+                    <div class= "small-card third-image">
+                        <div class="card-image">
+                        </div>
+                        <div class="details">
+                            <a href="#">
+                                LED Wall
+                            </a>
+                            <p>Node/Iot</p>
+                        </div>
+                    </div>
+
+                    <div class= "small-card fourth-image">
+                        <div class="card-image">
+                        </div>
+                        <div class="details">
+                            <a href="#">
+                                Pastel Puzzle
+                            </a>
+                            <p>MERN Stack</p>
+                        </div>
+                    </div>
+
+                    <div class= "small-card fifth-image">
+                        <div class="card-image">
+                        </div>
+                        <div class="details">
+                            <a href="#">
+                                Surf Report
+                            </a>
+                            <p>MERN Stack</p>
+                        </div>
+                    </div>
+                </div>
+                <!--END OF CARDS-->
+            </div>
+        </section>
+        <!--END WORKS SECTION-->
+
+        <!--contact me section-->
+        <section id="contact-me" class="box">
+            <div class="title contact">
+                <h3 class="section-title">Contact Me</h3>
+            </div>
+            <div class="content">
+                <ul class="contact-links">
+                    <li>
+                        <a href="#">317.709.9365</a>
+                    </li>
+                    <li>
+                        <a href="mailto:marblenicola@gmail.com">marblenicola@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/nicolamarble/">Linkedin</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/nicolalenee">GitHub</a>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
+    <!--END MAIN SECTION-->
 
-    <!--footer-->
+    <!--footer section-->
     <footer>
-        <h2>Contact Me</h2>
-        <div>
-            <ul>
-                <li>
-                    <a href="#">317.709.9365</a>
-                </li>
-                <li>
-                    <a href="#">marblenicola@gmail.com</a>
-                </li>
-                <li>
-                    <a href="#">Linkedin</a>
-                </li>
-                <li>
-                    <a href="#">GitHub</a>
-                </li>
+        <p>Made with 💗 by Nicola Marble. ©</p>
+    </Footer>
 
-            </ul>
-        </div>
-
-    </footer>
-    
 </body>
 </html>
