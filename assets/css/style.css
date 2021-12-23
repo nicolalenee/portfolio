@@ -321,7 +321,7 @@ footer {
 
 @media screen and (max-width: 513px){
     header {
-        padding: 5px 10px;
+        padding: 10px 25px;
     }
     header nav ul {
         margin-top: 10px;
