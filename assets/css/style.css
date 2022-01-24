@@ -219,6 +219,9 @@ main {
 .fifth-image {
     background-image: url("../images/surf-report.jpg")
 }
+.sixth-image {
+    background-image: url("../images/tiny-note.png")
+}
 
 .card-image img {
     width: 100%;
