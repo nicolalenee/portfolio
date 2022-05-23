@@ -225,7 +225,9 @@ main {
 .seventh-image {
     background-image: url("../images/algorhythm.png");
 }
-
+.eigth-image {
+    background-image: url("../images/duty-docket.png");
+}
 .card-image img {
     width: 100%;
     opacity: 0.6;
